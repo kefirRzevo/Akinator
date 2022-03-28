@@ -1,0 +1,13 @@
+STACK LOGFILE
+Time: 22:26:38
+Day:  Monday
+=====================================================================================
+|Name_stack: |Command:    |Argument:   |Stack size: |Status?                         
+|            |            |            |            |                                
+=====================================================================================
+|            |            |            |            |                                
+|&alloc_stk  |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&alloc_stk  |stack_push  |(null)      |1           |OK
+|            |            |            |            |
+THIS IS THE END!

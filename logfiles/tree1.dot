@@ -1,0 +1,45 @@
+digraph G                                                                                          
+{                                                                                                  
+		bgcolor  = "#FFFFFF"                                                                         
+		compound = true                                                                                
+		newrank  = true                                                                                
+		graph[splines = polyline, nodesep = 0.3, ranksep = 1, rankdir = TB]                            
+		node[shape = record, style = "filled", penwidth = 2, color = "#000000", margin = 0.04,     
+		fontcolor = "#000000", fontsize = 8, fillcolor = "#FFFFFF", fontname = "Arial"]          
+		edge[arrowsize = 0.7, style = solid, penwidth = 1.1, color = "#CCCCCC"]                    
+
+		Node0x60000209c060[label = "животное"]
+		Node0x60000209c060 -> Node0x60000209c080[label = "да", color = "black", fontname = "Arial"]
+
+		Node0x60000209c080[label = "кошка"]
+		Node0x60000209c080 -> Node0x60000209c0a0[label = "да", color = "black", fontname = "Arial"]
+
+		Node0x60000209c0a0[label = "полторашка"]
+
+		Node0x60000209c080 -> Node0x60000209c0c0[label = "нет", color = "black", fontname = "Arial"]
+
+		Node0x60000209c0c0[label = "матроскин"]
+
+
+		Node0x60000209c060 -> Node0x60000209c0e0[label = "нет", color = "black", fontname = "Arial"]
+
+		Node0x60000209c0e0[label = "фачит"]
+		Node0x60000209c0e0 -> Node0x60000209c100[label = "да", color = "black", fontname = "Arial"]
+
+		Node0x60000209c100[label = "младший"]
+		Node0x60000209c100 -> Node0x60000209c120[label = "да", color = "black", fontname = "Arial"]
+
+		Node0x60000209c120[label = "умнов младший"]
+
+		Node0x60000209c100 -> Node0x60000209c140[label = "нет", color = "black", fontname = "Arial"]
+
+		Node0x60000209c140[label = "умнов старший"]
+
+
+		Node0x60000209c0e0 -> Node0x60000209c160[label = "нет", color = "black", fontname = "Arial"]
+
+		Node0x60000209c160[label = "петрович аю"]
+
+
+
+}
